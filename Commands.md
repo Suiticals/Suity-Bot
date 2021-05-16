@@ -19,6 +19,9 @@ The research tree is used to unlock new mechanics, skills, item recipes, and pro
 Skills are split into idle and production skills. Mining, Woodcutting, Fishing, Combat, Hunter, and Thieving are all idle skills. 
 
 * `.idle <name of item>` can be used to assign a resource to gather using the idle skills.
+* Once an item has been assigned to be idled, you will continue to idle. It should be noted that the assigned item will never be unassigned so continuing to assign the same item has no effect.
+* Your maximum idle time is the amount of time elapsed since your last idlescape command. If you have not issued an idlescape command for longer than your maximum idle time, all progress will be paused until a command is issued. The idle timer is reset every time you issue an idlescape command. Your maximum idle time is based on your current Agility level including boosts. 
+* Ingredients are displayed under the recipe being idled. The number indicates the amount you have in your inventory. Idling will pause if you do not have enough ingredients to continue.
 * The items per hour displays the number of time you will complete that recipe in the next hour. If you do not have enough ingredients for the next hour, or boosts will expire, the display will be updated to the reduced number.
 </details>
 
