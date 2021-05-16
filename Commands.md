@@ -74,7 +74,7 @@ Your inventory is where all of your items are placed.
   <summary><code>.stats</code> - View your Idlescape stats.</summary>
 <br>
   
-Aliases: `.stat` `.skill` `.skills` `.level` `.level`
+Aliases: `.stat` `.skill` `.skills` `.level` `.levels`
 
 Experience in skills is gained through actions. As you gain experience your skills will level up, unlocking more content.
 
