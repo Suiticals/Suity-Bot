@@ -2,8 +2,12 @@
 
 <details>
   <summary><code>.research</code> - Begin researching from the research tree.</summary>
+<br>
+  
+Aliases: `.play` `.start` `.quest` `.quests` `.tutorial`
 
 The research tree is used to unlock new mechanics, skills, item recipes, and progress through the game. Use the arrow reactions to change your selection and the tick reaction to being researching the current selection or refresh the list.
+
 
 * `Research time` indicates how long the research will take to complete.
 * `Items Required` indicates the required items for the research. These items are taken from the inventory.
@@ -13,8 +17,11 @@ The research tree is used to unlock new mechanics, skills, item recipes, and pro
 * To view the details of a specific research use `.inspect research <name of research>`
 </details>
 
-<details open>
+<details>
   <summary><code>.idle</code> - View your idle progress.</summary>
+<br>
+  
+Aliases: `.gather` `.gathering`
 
 Skills are split into idle and production skills. Mining, Woodcutting, Fishing, Combat, Hunter, and Thieving are all idle skills. 
 
@@ -52,8 +59,6 @@ Drop down contents
 `.shop` - 
 
 `.ge` - 
-
-`.idle` - 
 
 `.production` - 
 
