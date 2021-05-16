@@ -13,6 +13,15 @@ The research tree is used to unlock new mechanics, skills, item recipes, and pro
 * To view the details of a specific research use `.inspect research <name of research>`
 </details>
 
+<details open>
+  <summary><code>.idle</code> - View your idle progress.</summary>
+
+Skills are split into idle and production skills. Mining, Woodcutting, Fishing, Combat, Hunter, and Thieving are all idle skills. 
+
+* `.idle <name of item>` can be used to assign a resource to gather using the idle skills.
+* The items per hour displays the number of time you will complete that recipe in the next hour. If you do not have enough ingredients for the next hour, or boosts will expire, the display will be updated to the reduced number.
+</details>
+
 <details>
   <summary><code>.boosts</code> - .</summary>
 
