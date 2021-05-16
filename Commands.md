@@ -85,6 +85,23 @@ The columns are in the following order:
 
 </details>
 
+
+<details>
+  <summary><code>.worn</code> - View your worn equipment.</summary>
+<br>
+  
+Aliases: `.gear` `.equipment`
+
+Equipping items
+
+* Use `.equip <item name>` to equip an item.
+* Use `.unequip <slot name>` to unequip an item. Unequip uses the slot name rather than the item name since items can be in multiple slots.
+* `Attack` determines how hard you hit a monster.
+* `Defence` determines how hard a monster hits you.
+* `Max kills` determines the maximum number of kills you can achieve per hour. Equip items with the `kill cap` stat to raise it. If your attack is high enough to get more kills per hour than your `kill cap`, the number is capped down to your `max kills`
+
+</details>
+
 <details>
   <summary><code>.boosts</code> - .</summary>
 
@@ -103,8 +120,6 @@ Drop down contents
 
 `.disassemble` - 
 
-`.worn` - 
-
 `.equip` - 
 
 `.unequip` - 
@@ -116,7 +131,5 @@ Drop down contents
 `.inspect` - 
 
 `.leaderboard` - 
-
-`.stats` - 
 
 `.use` - 
