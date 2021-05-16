@@ -9,8 +9,8 @@ Aliases: `.play` `.start` `.quest` `.quests` `.tutorial`
 The research tree is used to unlock new mechanics, skills, item recipes, and progress through the game. Use the arrow reactions to change your selection and the tick reaction to being researching the current selection or refresh the list.
 
 
-* `Research time` indicates how long the research will take to complete.
-* `Items Required` indicates the required items for the research. These items are taken from the inventory.
+* **Research time** indicates how long the research will take to complete.
+* **Items Required** indicates the required items for the research. These items are taken from the inventory.
 * Research level requirements cannot be boosted for.
 * Once started, the research cannot be cancelled.
 * A list of researches can be found using `.inspect researches`
@@ -96,9 +96,9 @@ Equipping items
 
 * Use `.equip <item name>` to equip an item.
 * Use `.unequip <slot name>` to unequip an item. Unequip uses the slot name rather than the item name since items can be in multiple slots.
-* `Attack` determines how hard you hit a monster.
-* `Defence` determines how hard a monster hits you.
-* `Max kills` determines the maximum number of kills you can achieve per hour. Equip items with the `kill cap` stat to raise it. If your attack is high enough to get more kills per hour than your `kill cap`, the number is capped down to your `max kills`
+* **Attack** determines how hard you hit a monster.
+* **Defence** determines how hard a monster hits you.
+* **Max kills** determines the maximum number of kills you can achieve per hour. Equip items with the **kill cap** stat to raise it. If your **attack** is high enough to get more kills per hour than your **kill cap**, the number is capped down to your **max kills**.
 
 </details>
 
