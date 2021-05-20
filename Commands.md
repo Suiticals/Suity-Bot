@@ -85,7 +85,6 @@ The columns are in the following order:
 
 </details>
 
-
 <details>
   <summary><code>.worn</code> - View your worn equipment.</summary>
 <br>
@@ -96,9 +95,57 @@ Equipping items
 
 * Use `.equip <item name>` to equip an item.
 * Use `.unequip <slot name>` to unequip an item. Unequip uses the slot name rather than the item name since items can be in multiple slots.
+* Equipping an item to a slot already in use will unequip the currently worn item.
+* Some items use multiple slots. For example: two-handed weapons use both the mainhand and offhand slots.
 * **Attack** determines how hard you hit a monster.
 * **Defence** determines how hard a monster hits you.
 * **Max kills** determines the maximum number of kills you can achieve per hour. Equip items with the **kill cap** stat to raise it. If your **attack** is high enough to get more kills per hour than your **kill cap**, the number is capped down to your **max kills**.
+
+</details>
+  
+<details>
+  <summary><code>.equip</code> - Equip a piece of equipment.</summary>
+<br>
+  
+Aliases: `.wear` `.wield` `.weild`
+
+* Use `.equip <item name>` to equip an item.
+* Use `.unequip <slot name>` to unequip an item. Unequip uses the slot name rather than the item name since items can be in multiple slots.
+* Equipping an item to a slot already in use will unequip the currently worn item.
+* Some items use multiple slots. For example: two-handed weapons use both the mainhand and offhand slots.
+
+</details>
+  
+<details>
+  <summary><code>.unequip</code> - Unequip a piece of equipment in a worn slot.</summary>
+<br>
+  
+Aliases: `.unwear` `.unwield` `.unweild`
+
+* Use `.unequip <slot name>` to unequip an item. Unequip uses the slot name rather than the item name since items can be in multiple slots.
+* Use `.equip <item name>` to equip an item.
+* `slot name` can either be the name of the slot or its alias.
+
+Slot name|Aliases|Unlock
+-|-|-
+Head|`helm`|
+Cape|`back`|
+Neck|`amulet` `ammy`|
+Mainhand|`mh` `weapon`|
+Offhand|`oh` `shield`|
+Body|`top` `torso`|
+Legs|`bottom` `bottoms`|
+Hands|`glove` `gloves`|
+Feet|`boot` `boots`|
+Ring||
+Ammo||
+Consumable 1|`food 1` `consumable1` `c1`|
+Consumable 2|`food 2` `consumable2` `c2`|Level 30 Combat
+Consumable 3|`food 3` `consumable3` `c3`|Level 70 Combat
+Pickaxe||Completion of the 'Pickaxes' research
+Hatchet||Completion of the 'Hatchets' research
+Fishing rod||Completion of the 'Fishing rods' research
+
 
 </details>
 
