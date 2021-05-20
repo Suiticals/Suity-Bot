@@ -104,12 +104,11 @@ Equipping items
 </details>
   
 <details>
-  <summary><code>.equip</code> - Equip a piece of equipment.</summary>
+  <summary><code>.equip &ltname of item></code> - Equip a piece of equipment.</summary>
 <br>
   
 Aliases: `.wear` `.wield` `.weild`
 
-* Use `.equip <item name>` to equip an item.
 * Use `.unequip <slot name>` to unequip an item. Unequip uses the slot name rather than the item name since items can be in multiple slots.
 * Equipping an item to a slot already in use will unequip the currently worn item.
 * Some items use multiple slots. For example: two-handed weapons use both the mainhand and offhand slots.
@@ -117,12 +116,12 @@ Aliases: `.wear` `.wield` `.weild`
 </details>
   
 <details>
-  <summary><code>.unequip</code> - Unequip a piece of equipment in a worn slot.</summary>
+  <summary><code>.unequip &ltslot name></code> - Unequip a piece of equipment in a worn slot.</summary>
 <br>
   
 Aliases: `.unwear` `.unwield` `.unweild`
 
-* Use `.unequip <slot name>` to unequip an item. Unequip uses the slot name rather than the item name since items can be in multiple slots.
+* Unequip uses the slot name rather than the item name since items can be in multiple slots.
 * Use `.equip <item name>` to equip an item.
 * `slot name` can either be the name of the slot or its alias.
 
@@ -179,7 +178,7 @@ Bucket of sand|80|Completion of the 'Hand in the Sand' research
 </details>
   
 <details>
-  <summary><code>.use</code> - Use an item.</summary>
+  <summary><code>.use &ltname of item></code> - Use an item.</summary>
 <br>
 
 Syntax: `.use [quantity] <item>`
@@ -187,7 +186,7 @@ Syntax: `.use [quantity] <item>`
 * If `quantity` is unspecified it will default to 1.
 * Items that can be used are denoted by the 'use' icon in your `.inventory`
 * **Add buff** items, such as potions, grant you boosts for a certain duration. You can view your active buffs using `.buffs`
-* **Lootbox** items, such as seedboxes, can be opened using this command. You can view the drop table of the lootbox using `.inspect item <name of item>`
+* **Lootbox** items, such as seedboxes, can be opened using this command. You can view the loot table of the lootbox using `.inspect item <name of item>`
  
 </details>
 
@@ -195,9 +194,62 @@ Syntax: `.use [quantity] <item>`
   <summary><code>.inspect</code> - Inspect an item, monster, component, or research.</summary>
 <br>
 
-  `.inspect collection <name of collection>` - Inspect a collection. Identical to `.collection view`
+<details>
+<summary><code>.inspect item &ltname of item></code> - Inspect an item.</summary>
+<br>
 
-  `.inspect component <name of item>` - View a list of items that disassemble into a component.
+Field|Description
+-|-
+Value|The value at which the `.shop` will purchase this item if it can be sold to the shop.
+Tradeable|Whether the item can be traded to other players on the Grand Exchange using the `.ge` command.
+Sold in shop|Whether the item is sold in the `.shop`
+Source skill|The production slot the recipe uses. Only displayed if the item can be gathered or made through a skill.
+Experience|The experience granted per recipe completed. Only displayed if the item can be gathered or made through a skill.
+Time|The amount of time per recipe completion. This excludes any active boosts. Only displayed if the item can be gathered or made through a skill.
+Ingredients|The required items per recipe completion. Some recipes do not require ingredients. Only displayed if the item can be gathered or made through a skill.
+Source|The sources through which the item can be obtained. Only displayed if the item can be obtained from a monster, another item recipe, or a lootbox.
+Requirements|The skill and research requirements to unlock the item recipe. Only displayed if the item can be gathered or made through a skill.
+Disassemble|The possible components on the item's disassembly loot table, junk chance, and number of rolls per item. If multiple items are required per roll a 'Quantity' field will also be shown. Only displayed if the item can be disassembled using the `.disassemble` command.
+Buffs|The duration of the buff granted per item used and its effect(s). Only displayed if the item grants a buff using the `.use` command.
+Lootbox table|The loot table of the item and their rarities. Only displayed if the item opens a lootbox using the `.use` command.
+Worn|The stats of the item. If the item has a worn effect, the effects will also be shown. Only displayed if the item can be worn using the `.equip` command.
+
+</details>
+
+<details>
+<summary><code>.inspect monster &ltname of monster></code> - Inspect a monster.</summary>
+<br>
+
+Field|Description
+-|-
+Loot table|The loot table of the monster and their rarities. Guranteed drops are shown as 100% and are given in addition to the normal loot roll.
+Stats|The stats of the monster.
+Experience|The combat and style experience granted per kill.
+Requirements|The skill and research requirements to unlock the monster.
+Slayer only|Some monsters cannot be killed in idle combat using the `.fight` command, and can only be killed as a Slayer task using the `.slay` command.
+Slayer|The requirements to be assigned the monster as a Slayer task. Also displays the slayer experience granted per kill.
+  
+</details>
+
+<details>
+  <summary><code>.inspect collection &ltname of collection></code> - Inspect a collection.</summary>
+  <br>
+
+  * Identical to `.collection view`
+  * The checkboxes indicate whether the item is currently in your inventory.
+
+</details>
+
+<details>
+<summary><code>.inspect component &ltname of item></code> - View a list of items that disassemble into a component.</summary>
+<br>
+
+* This command is only for items which can be obtained through the `.disassmble` command.
+* All rarities are displayed **after** junk chance. See `.disassemble` on how component rarities function.
+
+</details>
+  
+  
 
   `.inspect item <name of item>` - Inspect an item.
 
@@ -226,7 +278,5 @@ Aliases:
 `.shop` - 
 
 `.ge` - 
-
-`.inspect` - 
 
 `.leaderboard` - 
