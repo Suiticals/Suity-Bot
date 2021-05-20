@@ -146,20 +146,34 @@ Pickaxe||Completion of the 'Pickaxes' research
 Hatchet||Completion of the 'Hatchets' research
 Fishing rod||Completion of the 'Fishing rods' research
 
-</details>
-
 <details>
-  <summary><code>.boosts</code> - .</summary>
+  <summary><code>.boosts</code> - View your active boosts.</summary>
+<br>
 
-Drop down contents
 </details>
-
+  
 <details>
-  <summary><code>.buffs</code> - .</summary>
+  <summary><code>.buffs</code> - View your active buff sources.</summary>
+<br>
 
-Drop down contents
-</details> 
 
+</details>  
+  
+<details>
+  <summary><code>.daily</code> - Claim any unlocked dailies.</summary>
+<br>
+
+* This command can be used once every 24 hours.
+
+</details>
+  
+<details>
+  <summary><code>.</code> - </summary>
+<br>
+  
+Aliases:
+
+</details>
 
 `.collection` - 
 
