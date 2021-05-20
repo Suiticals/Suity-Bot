@@ -146,7 +146,6 @@ Pickaxe||Completion of the 'Pickaxes' research
 Hatchet||Completion of the 'Hatchets' research
 Fishing rod||Completion of the 'Fishing rods' research
 
-
 </details>
 
 <details>
@@ -166,10 +165,6 @@ Drop down contents
 `.daily` - 
 
 `.disassemble` - 
-
-`.equip` - 
-
-`.unequip` - 
 
 `.shop` - 
 
