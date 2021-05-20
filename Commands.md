@@ -146,6 +146,8 @@ Pickaxe||Completion of the 'Pickaxes' research
 Hatchet||Completion of the 'Hatchets' research
 Fishing rod||Completion of the 'Fishing rods' research
 
+  </details>
+
 <details>
   <summary><code>.boosts</code> - View your active boosts.</summary>
 <br>
@@ -164,6 +166,48 @@ Fishing rod||Completion of the 'Fishing rods' research
 <br>
 
 * This command can be used once every 24 hours.
+* **Daily streak** is the number of consecutive days you have claimed dailies.
+* Streaks are reset if you have not claimed a daily for more than 36 hours.
+* Each daily streak grants a 25% increase in daily rewards.
+* Streaks are capped at 8 days, for a maximum of 200% increase in daily rewards.
+
+Daily|Base Quantity|Unlock
+-|-|-
+Coins|500|
+Bucket of sand|80|Completion of the 'Hand in the Sand' research
+
+</details>
+  
+<details>
+  <summary><code>.use</code> - Use an item.</summary>
+<br>
+
+Syntax: `.use [quantity] <item>`
+
+* If `quantity` is unspecified it will default to 1.
+* Items that can be used are denoted by the 'use' icon in your `.inventory`
+* **Add buff** items, such as potions, grant you boosts for a certain duration. You can view your active buffs using `.buffs`
+* **Lootbox** items, such as seedboxes, can be opened using this command. You can view the drop table of the lootbox using `.inspect item <name of item>`
+ 
+</details>
+
+<details>
+  <summary><code>.inspect</code> - Inspect an item, monster, component, or research.</summary>
+<br>
+
+  `.inspect collection <name of collection>` - Inspect a collection. Identical to `.collection view`
+
+  `.inspect component <name of item>` - View a list of items that disassemble into a component.
+
+  `.inspect item <name of item>` - Inspect an item.
+
+  `.inspect monster <name of monster>` - Inspect a monster.
+
+  `.inspect research <name of research>` - Inspect a research.
+
+  `.inspect researches` - View a list of all researches.
+
+  `.inspect skill <name of skill>` - Inspect a skill to view the unlock table.
 
 </details>
   
@@ -177,8 +221,6 @@ Aliases:
 
 `.collection` - 
 
-`.daily` - 
-
 `.disassemble` - 
 
 `.shop` - 
@@ -188,5 +230,3 @@ Aliases:
 `.inspect` - 
 
 `.leaderboard` - 
-
-`.use` - 
