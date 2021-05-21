@@ -231,6 +231,38 @@ Slayer|The requirements to be assigned the monster as a Slayer task. Also displa
   
 </details>
 
+
+<details>
+  <summary><code>.inspect research &ltname of research></code> - Inspect a research.</summary>
+  <br>
+
+Field|Description
+-|-
+Infotext|Helptext to indicate what the research unlocks.
+Requirements|The skill and research requirements to complete the research.
+Items Required|The required items per research completion. Some researches do not require ingredients.
+Research Time|The amount of time the research takes to complete. Some researches are completely instantly.
+
+</details>
+ 
+<details>
+  <summary><code>.inspect researches</code> - View a list of all researches.</summary>
+  <br>
+
+  * The checkboxes indicate whether you have completed the research.
+
+</details>
+
+<details>
+  <summary><code>.inspect skill &ltname of skill></code> - Inspect a skill to view the unlock table.</summary>
+  <br>
+
+  * The checkboxes indicate whether the recipe is unlocked.
+  * The skill requirements are listed following the recipe name.
+  * **Requirements** indicates the requirements to unlock the skill. The checkbox beside requirement
+
+</details>
+
 <details>
   <summary><code>.inspect collection &ltname of collection></code> - Inspect a collection.</summary>
   <br>
@@ -248,18 +280,6 @@ Slayer|The requirements to be assigned the monster as a Slayer task. Also displa
 * All rarities are displayed **after** junk chance. See `.disassemble` on how component rarities function.
 
 </details>
-  
-  
-
-  `.inspect item <name of item>` - Inspect an item.
-
-  `.inspect monster <name of monster>` - Inspect a monster.
-
-  `.inspect research <name of research>` - Inspect a research.
-
-  `.inspect researches` - View a list of all researches.
-
-  `.inspect skill <name of skill>` - Inspect a skill to view the unlock table.
 
 </details>
   
