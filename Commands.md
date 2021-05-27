@@ -191,7 +191,7 @@ Syntax: `.use [quantity] <item>`
 </details>
 
 <details>
-  <summary><code>.inspect</code> - Inspect an item, monster, component, or research.</summary>
+  <summary><code>.inspect</code> - Inspect an item, monster, skill, component, or research.</summary>
 <br>
 
 <details>
@@ -276,8 +276,8 @@ Research Time|The amount of time the research takes to complete. Some researches
 <summary><code>.inspect component &ltname of item></code> - View a list of items that disassemble into a component.</summary>
 <br>
 
-* This command is only for items which can be obtained through the `.disassmble` command.
-* All rarities are displayed **after** junk chance. See `.disassemble` on how component rarities function.
+  * This command is only for items which can be obtained through the `.disassmble` command.
+  * All rarities are displayed **after** junk chance. See `.disassemble` on how component rarities function.
 
 </details>
 
@@ -295,8 +295,8 @@ Aliases:
 
 `.disassemble` - 
 
+`.preset` -
+  
 `.shop` - 
 
 `.ge` - 
-
-`.leaderboard` - 
