@@ -132,7 +132,7 @@ Cape|`back`|
 Neck|`amulet` `ammy`|
 Mainhand|`mh` `weapon`|
 Offhand|`oh` `shield`|
-Body|`top` `torso`|
+Body|`top` `torso` `chest`|
 Legs|`bottom` `bottoms`|
 Hands|`glove` `gloves`|
 Feet|`boot` `boots`|
