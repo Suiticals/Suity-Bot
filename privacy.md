@@ -1,6 +1,6 @@
 # Privacy policy
 
-This document pertains to the privacy policy and agreement that you accept when interacting with SuityBot on discord, or as a member of a server the Bot has been invited to. This policy does not supersede the [Developer Terms of Service](https://discordapp.com/developers/docs/legal).
+This document pertains to the privacy policy and agreement that you accept when interacting with SuityBot on discord, or as a member of a server the Bot has been invited to. This policy does not supersede the [Developer Terms of Service](https://discordapp.com/developers/docs/legal) or breach the [General Data Protection Regulation](https://gdpr-info.eu/).
 
 ### Data Collected By Command Usage
 
