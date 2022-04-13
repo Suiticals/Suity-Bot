@@ -1,6 +1,6 @@
 # Privacy policy
 
-This document pertains to the privacy policy and agreement that you accept when interacting with SuityBot on discord, or as a member of a server that SuityBot has been invited to. This policy does not supersede the [Developer Terms of Service](https://discordapp.com/developers/docs/legal) or breach the [General Data Protection Regulation](https://gdpr-info.eu/).
+This document pertains to the privacy policy and agreement that you accept when interacting with SuityBot#6298 (573516380192899072) on discord, or as a member of a server that SuityBot has been invited to. This policy does not supersede the [Developer Terms of Service](https://discordapp.com/developers/docs/legal) or breach the [General Data Protection Regulation](https://gdpr-info.eu/). This privacy policy also applies to https://pct.wtf.
 
 ### Data Collected By Command Usage
 
