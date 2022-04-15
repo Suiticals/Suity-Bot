@@ -10,7 +10,6 @@ The following items may be collected and stored when intentionally invoking a co
 * A member's list of items marked as favourited by them.
 * A member's saved game data when interacting with `Idlescape`.
 * A member's Patreon subscription level.
-* A member's interaction statistics when interacting with `wordcloud` and/or `markov chain`.
 * A member's transactions when interacting with recording price checks. The data stored is as follows:
   * Date and time of submitted transaction(s).
   * The price of submitted transaction(s).
