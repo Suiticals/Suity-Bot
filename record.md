@@ -76,9 +76,10 @@ The `price` of an item accomodates 'shorthand' quantities such as `1M` `1.1M` `1
 Users will often ignore the `screenshot` parameter and upload a file instead. The `screenshot` parameter cannot be empty and must include a link. Discord can however be used as an image host:
 
 1. Upload the screenshot to a discord channel.
-2. Right click the image > 
+2. Right click the image > Copy Link.
+3. Make sure it is `Copy Link` not `Copy message link`.
 
-
+![image](https://user-images.githubusercontent.com/39773562/164466227-8e9199fa-0c27-42d1-8555-092ccd30ba58.png)
 
 ## Issues and Conflicts
 
