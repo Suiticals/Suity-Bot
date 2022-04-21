@@ -56,8 +56,16 @@ Synax: `.pct record <type> <price> <screenshot> <date> <time> <item>`
 
 * `type` indicates the trade type. Acceptable types are `inb` `ins` `nib` and `nis`.
 * `price` indicates the price the item is traded at. [See the price section for details](#Price)
-* `screenshot` indicates a link to the screenshot showing the trade.
-* 
+* `screenshot` indicates a link to the screenshot showing the trade.[How to use discord as an image host](#Using-Discord-as-an-image-host)
+* `date` in the format `YYYY-MM-DD`.
+* `time` in the format `HH:MM` UTC / game time.
+* `item` indicates the name of the item being traded. If you recieve the `too many search results` error try to refine your item name. For example `sant` will bring up all three santa hats while `green santa` will bring up only one.
+
+#### Example Usage
+
+![image](https://user-images.githubusercontent.com/39773562/164462500-bcc7e311-478a-4a2a-a636-52da30b3b699.png)
+
+`.pct record nis 395m https://i.imgur.com/NKpUk7n.png 2022-04-20 08:59 golden partyhat`
 
 ### Price
 
