@@ -13,7 +13,7 @@ The verification screenshot must:
 * Show the in-game chatbox with your Runescape screen-name clearly visible.
 * Include a public chat message asking for verification and today's date.
 * The RSN in the screenshot must match the one provided when applying.
-* You may use a number of image hosts to upload your screenshot to including `gyazo` `imgur` or even `discord`
+* You may use a number of image hosts to upload your screenshot to including `gyazo` `imgur` or even `discord`. [How to use discord as an image host](#Using-Discord-as-an-image-host)
 
 This is an example of an acceptable screenshot:
 
@@ -38,7 +38,7 @@ Your verification will either be `approved` or `denied`. Once you are verified, 
 Syntax: `.inb <price> <screenshot> <item>`
 
 * Replace `inb` with `ins` `nib` or `nis` where necessary.
-* `price` indicates the price the item is traded at.
+* `price` indicates the price the item is traded at. [See the price section for details](#Price)
 * `screenshot` indicates a link to the screenshot showing the trade. [How to use discord as an image host](#Using-Discord-as-an-image-host)
 * `item` indicates the name of the item being traded. If you recieve the `too many search results` error try to refine your item name. For example `sant` will bring up all three santa hats while `green santa` will bring up only one.
 
@@ -55,7 +55,7 @@ If your trade is older than `now`, use `.pct record` instead.
 Synax: `.pct record <type> <price> <screenshot> <date> <time> <item>`
 
 * `type` indicates the trade type. Acceptable types are `inb` `ins` `nib` and `nis`.
-* `price` indicates the price the item is traded at. [See price section for details](#Price)
+* `price` indicates the price the item is traded at. [See the price section for details](#Price)
 * `screenshot` indicates a link to the screenshot showing the trade.
 * 
 
