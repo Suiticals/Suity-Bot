@@ -1,5 +1,7 @@
 # How to record transactions
 
+Please note that syntaxes using `< >` indicate a required parameter. Input your details in the command without the use of `< >`.
+
 ## Getting Verified
 
 In order to begin submitting transactions to the bot you must verify your RSN. `.pct verifyhelp` also shows this information.
@@ -32,4 +34,11 @@ Your verification will either be `approved` or `denied`. Once you are verified, 
 * `ins` - Instant sold. Once you confirm your Grand Exchange offer, if the item is immediately sold it is classed instant.
 * `nib` - Not instant bought. Once you confirm your Grand Exchange offer, if the item is not immediately bought it is classed as non-instant. Please take into consideration the possibility that [you may be on your buy limit](https://runescape.wiki/w/Grand_Exchange#Buying_limits).
 * `nis` - Not instant sold. Once you confirm your Grand Exchange offer, if the item is not immediately sold it is classed as non-insant. Item sales are not subject to your buy limit.
+
+## Issues and conflicts
+
+If you have an issue with recording, command usage, verification or conflict with a recent transaction submitted to the bot, please use the `issues` channel to open a ticket in the [SuityBot support server](https://discord.gg/hTxdyhjUmG). Alternatively you may contact using `.contact <message>`
+
+## Record stream
+
 
