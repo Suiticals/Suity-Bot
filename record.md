@@ -31,7 +31,7 @@ Your verification will either be `approved` or `denied`. Once you are verified, 
 ## Submitting a trade
 
 * `inb` - Instant bought. Once you confirm your Grand Exchange offer, if the item is immediately bought it is classed as instant.
-* `ins` - Instant sold. Once you confirm your Grand Exchange offer, if the item is immediately sold it is classed instant.
+* `ins` - Instant sold. Once you confirm your Grand Exchange offer, if the item is immediately sold it is classed as instant.
 * `nib` - Not instant bought. Once you confirm your Grand Exchange offer, if the item is not immediately bought it is classed as non-instant. Please take into consideration the possibility that [you may be on your buy limit](https://runescape.wiki/w/Grand_Exchange#Buying_limits).
 * `nis` - Not instant sold. Once you confirm your Grand Exchange offer, if the item is not immediately sold it is classed as non-insant. Item sales are not subject to your buy limit.
 
