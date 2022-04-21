@@ -18,3 +18,18 @@ This is an example of an acceptable screenshot:
 ![image](https://user-images.githubusercontent.com/39773562/164458007-2133ebb9-d07c-492b-ac5f-b7f028923cea.png)
 
 The example command for verification using this screenshot would be: `.pct verify https://i.imgur.com/XdspFz3.png suity`
+
+Your verification will either be `approved` or `denied`. Once you are verified, you may submit trades to the bot. You may be denied for one or more of the following reasons:
+
+* `The screenshot provided is invalid` - The screenshot you provided is inaccessible or is a broken link.
+* `The RSN provided does not match the RSN in the screenshot`
+* `There is no public chat message in-game requesting verification`
+* `The verification message in public chat does not include the date the application was submitted`
+
+## Submitting a trade
+
+* `inb` - Instant bought. Once you confirm your Grand Exchange offer, if the item is immediately bought it is classed as instant.
+* `ins` - Instant sold. Once you confirm your Grand Exchange offer, if the item is immediately sold it is classed instant.
+* `nib` - Not instant bought. Once you confirm your Grand Exchange offer, if the item is not immediately bought it is classed as non-instant. Please take into consideration the possibility that [you may be on your buy limit](https://runescape.wiki/w/Grand_Exchange#Buying_limits).
+* `nis` - Not instant sold. Once you confirm your Grand Exchange offer, if the item is not immediately sold it is classed as non-insant. Item sales are not subject to your buy limit.
+
