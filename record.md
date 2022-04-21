@@ -39,7 +39,7 @@ Syntax: `.inb <price> <screenshot> <item>`
 
 * Replace `inb` with `ins` `nib` or `nis` where necessary.
 * `price` indicates the price the item is traded at.
-* `screenshot` indicates a link to the screenshot showing the trade.
+* `screenshot` indicates a link to the screenshot showing the trade. [How to use discord as an image host](#Using Discord as an image host)
 * `item` indicates the name of the item being traded. If you recieve the `too many search results` error try to refine your item name. For example `sant` will bring up all three santa hats while `green santa` will bring up only one.
 
 ### Example Usage
