@@ -86,5 +86,5 @@ If you have an issue with recording, command usage, verification or conflict wit
 
 ## Record Stream
 
-The `record-stream` channel in the [SuityBot support server](https://discord.gg/hTxdyhjUmG) is a running feed of *all* actions taken. This includes new records, record edits, record removals with a reason states (it is mandatory that all records removed need to have an adequate reason). All deleted records and their reasons can also be viewed using `.pct deleted`.
+The `record-stream` channel in the [SuityBot support server](https://discord.gg/hTxdyhjUmG) is a running feed of *all* actions taken. This includes new records, record edits, record removals with a reason stated (it is mandatory that all records removed need to have an adequate reason). All deleted records and their reasons can also be viewed using `.pct deleted`.
 
